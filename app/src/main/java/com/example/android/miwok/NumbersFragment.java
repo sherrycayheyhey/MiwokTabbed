@@ -86,7 +86,7 @@ public class NumbersFragment extends Fragment {
         //which is the Activity that encloses the current fragment (NumbersActivity)
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
-        // Create a list of words
+        //Create a list of words
         //final so that we can reference the words ArrayList within the onItemClick method
         final ArrayList<Word> words = new ArrayList<>();
         words.add(new Word("one", "lutti", R.drawable.number_one,
